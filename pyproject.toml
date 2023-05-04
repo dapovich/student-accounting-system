@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "student-accounting-system"
+version = "0.1.0"
+description = "student performance accounting system"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "student_accounting_system"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
